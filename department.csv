@@ -1,0 +1,4 @@
+id,name,dept_code,dept_type,parent_name,leader_name,establish_date,sort_order,status,responsibilities,remark,created_at
+33330000-0000-0000-0000-000000000001,销售部,BD,business_unit,,蒋耗,2020-01-01,1,active,负责市场开拓与客户开发,,2024-01-01T00:00:00+00:00
+33330000-0000-0000-0000-000000000002,技术部,TECH,functional,,李娜,2020-01-01,2,active,负责产品研发与项目交付,,2024-01-01T00:00:00+00:00
+33330000-0000-0000-0000-000000000003,商务部,COM,functional,,王芳,2020-06-01,3,active,负责合同签署与回款跟进,,2024-01-01T00:00:00+00:00

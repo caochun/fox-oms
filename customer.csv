@@ -1,0 +1,4 @@
+id,name,industry,customer_level,customer_source,company_type,tags,size,address,legal_person,registered_capital,credit_grade,region,customer_importance,unified_social_credit_code,registration_status,note,created_at
+bb6de022-3b1d-45e8-98fc-4404d0dfed26,电力信息科技,energy,key,tender,customer,电力;信息化,100to500,北京市朝阳区望京SOHO T3,陈国栋,5000,A,华北,high,91110105MA00EL0X2A,active,电力行业头部信息化服务商,2024-01-10T00:00:00+00:00
+11110000-0000-0000-0000-000000000001,华盛科技有限公司,tech,strategic,referral,customer,数字化;云平台,gt1000,上海市浦东新区张江高科技园区,李海强,20000,A,华东,high,91310115MA1K3FPQ3T,active,上市公司；长期合作客户,2024-02-15T00:00:00+00:00
+11110000-0000-0000-0000-000000000002,东方能源集团,energy,key,self_developed,customer,能源;国企,gt1000,北京市西城区金融街35号,赵志远,50000,A,华北,high,91110102MA004TUF5X,active,央企子公司,2024-03-20T00:00:00+00:00

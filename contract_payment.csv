@@ -1,0 +1,2 @@
+id,contract_id,invoice_id,payment_amount,payment_date,payment_method,receipt_ref,payer_id,reconciled,remark,created_at
+ffff0000-0000-0000-0000-000000000001,dddd0000-0000-0000-0000-000000000001,eeee0000-0000-0000-0000-000000000001,30,2024-06-20,lump_sum,ICBC-2024062001234,bb6de022-3b1d-45e8-98fc-4404d0dfed26,yes,首期款已到账；银行流水已核对,2024-06-20T00:00:00+00:00

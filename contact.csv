@@ -1,0 +1,6 @@
+id,customer_id,name,gender,company,department,phone,mobile,wechat,email,position,title,decision_role,contact_priority,relationship_level,attitude,status,note,created_at
+d647831d-8128-4bee-be7c-5fb013ed231d,bb6de022-3b1d-45e8-98fc-4404d0dfed26,秋秋,female,电力信息科技,IT部,010-82345678,13901234567,qiuqiu88,qiuqiu@dianli.com,IT主任,信息化总监,tech,1,acquaintance,supportive,active,主要技术决策人,2024-01-15T00:00:00+00:00
+22220000-0000-0000-0000-000000000001,bb6de022-3b1d-45e8-98fc-4404d0dfed26,陈国栋,male,电力信息科技,采购部,010-82345699,13911234568,chengd2024,cnd@dianli.com,采购总监,副总经理,purchase,1,familiar,supportive,active,采购决策人；公司副总,2024-01-20T00:00:00+00:00
+22220000-0000-0000-0000-000000000002,11110000-0000-0000-0000-000000000001,张明华,male,华盛科技,数字化转型办,021-58888001,13812345678,zhangmh_hs,zmh@huasheng.com,CTO,首席技术官,tech,1,familiar,supportive,active,主导华盛数字化项目,2024-02-20T00:00:00+00:00
+22220000-0000-0000-0000-000000000003,11110000-0000-0000-0000-000000000001,王晓红,female,华盛科技,采购中心,021-58888002,13912345679,wxh_hs,wxh@huasheng.com,采购经理,采购高级经理,purchase,2,acquaintance,neutral,active,负责具体采购流程,2024-02-25T00:00:00+00:00
+22220000-0000-0000-0000-000000000004,11110000-0000-0000-0000-000000000002,刘大鹏,male,东方能源集团,信息管理部,010-66512345,13701234560,ldp_dfy,ldp@dongfang.com,信息部总监,高级总监,final,1,acquaintance,supportive,active,东方能源关键决策人,2024-03-25T00:00:00+00:00
