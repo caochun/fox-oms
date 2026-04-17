@@ -1,0 +1,9 @@
+id,customer_id,platform_name,account,owner_type,expiry_date,status,remark,created_at
+4391448e-814d-4400-a13c-8fb163bd2ae3,95cea1e3-545c-4d71-aad6-5f12dc010321,国家电网电子商务平台,USER_SGCC_3007,customer,2025-10-01,active,,2018-06-16
+0e1d2698-8fa8-4954-b80a-393c5c192714,cbe8801a-93b5-44f9-8ce7-9b9998fe8a00,国家电网电子商务平台,USER_CSG_5061,customer,2025-05-25,active,,2018-09-08
+4363f2ac-8deb-4884-803f-59d7c1da2efd,23737dec-9bce-472c-b1c0-a3027d979391,中国电力招标投标平台,USER_华能_1829,customer,2025-10-25,active,,2018-08-23
+a55ec5bf-0941-4989-adfb-1c59f5fbde36,016654bb-e840-4b81-a79d-3f019d698561,国家电网电子商务平台,USER_大唐_7850,customer,2025-09-12,active,,2019-11-03
+9e64326f-b3fe-4a69-be25-b6e9a96ba351,ec23e3db-5f4f-4b44-977f-723d464e743c,中国电力招标投标平台,USER_华电_6364,customer,2026-08-15,active,,2019-08-22
+9d145b2e-ef20-4712-bb06-32c827d8ca1c,a6511b8c-c335-4af4-bbe6-65916bb7db78,政府采购云平台,USER_冀电_6123,customer,2025-07-14,active,,2018-04-23
+aa2b4f1e-bfd5-406d-9773-5653a22468f4,9ca36a6e-b68b-4f55-9f43-d5e69fd721af,中国电力招标投标平台,USER_鲁电_9163,customer,2026-06-12,active,,2018-09-15
+fe8cfbbd-c534-4dfe-8674-9d5383569119,2a2d66ee-0003-4d79-88bf-e52c16e77e74,国家电网电子商务平台,USER_苏电_9171,customer,2025-11-12,active,,2019-03-22

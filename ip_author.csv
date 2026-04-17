@@ -1,0 +1,12 @@
+id,ip_asset_id,employee_id,name,role,phone,address,created_at
+57992c0a-bbd5-457a-ba70-7a22d1c0a537,6cb80482-a4af-4d54-b224-edf8a7b12a9e,03bba6d2-ee3d-49f9-aba2-bfbe72500278,王芳,co_inventor,,,2022-04-19
+5e9983ea-c67f-4a9c-a1cf-1b70318bde0f,6cb80482-a4af-4d54-b224-edf8a7b12a9e,c8b88095-dc6b-48b6-a342-cdf18ad2cb0d,徐鹏,author,,,2022-04-19
+f44deb74-2d79-4cd7-9f71-adb456a39424,d9cd283c-bac1-4f1a-a0fb-d2912052b8a5,03bba6d2-ee3d-49f9-aba2-bfbe72500278,王芳,inventor,,,2023-01-27
+94fe9c47-c6d0-46db-89d2-4322bf346837,d9cd283c-bac1-4f1a-a0fb-d2912052b8a5,c8b88095-dc6b-48b6-a342-cdf18ad2cb0d,徐鹏,author,,,2023-01-27
+cb814698-2abf-46a8-970f-3fd5fedfa379,a41cb36c-8450-4b0c-9f06-a4b49f43e051,03bba6d2-ee3d-49f9-aba2-bfbe72500278,王芳,author,,,2022-08-09
+417b24e6-ecd4-4668-bb93-58ffaf1487a0,a41cb36c-8450-4b0c-9f06-a4b49f43e051,c8b88095-dc6b-48b6-a342-cdf18ad2cb0d,徐鹏,inventor,,,2022-08-09
+3529646e-2b0d-4cbf-a283-d39d2eae722d,adcdee0c-5813-4c9d-8732-8aff2a9bc8d2,03bba6d2-ee3d-49f9-aba2-bfbe72500278,王芳,inventor,,,2022-09-12
+1d466c9c-c9c2-4587-a9ca-2283ed047302,adcdee0c-5813-4c9d-8732-8aff2a9bc8d2,c8b88095-dc6b-48b6-a342-cdf18ad2cb0d,徐鹏,inventor,,,2022-09-12
+fefe4597-843e-4be8-9e80-ae591003cd12,baac246e-b53c-491a-b833-e3a9036f9faf,03bba6d2-ee3d-49f9-aba2-bfbe72500278,王芳,author,,,2021-03-05
+e801c683-6801-4b69-b4ea-2d48d123eebf,baac246e-b53c-491a-b833-e3a9036f9faf,c8b88095-dc6b-48b6-a342-cdf18ad2cb0d,徐鹏,co_inventor,,,2021-03-05
+e986a400-4e83-41cf-8dd4-2fc5d7dd6997,f3fa57e7-40a4-44ee-b98d-85a4d38345e3,03bba6d2-ee3d-49f9-aba2-bfbe72500278,王芳,co_inventor,,,2021-04-16

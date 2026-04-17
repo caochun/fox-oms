@@ -1,4 +1,7 @@
-id,name,dept_code,dept_type,parent_name,leader_name,establish_date,sort_order,status,responsibilities,remark,created_at
-33330000-0000-0000-0000-000000000001,销售部,BD,business_unit,,蒋耗,2020-01-01,1,active,负责市场开拓与客户开发,,2024-01-01T00:00:00+00:00
-33330000-0000-0000-0000-000000000002,技术部,TECH,functional,,李娜,2020-01-01,2,active,负责产品研发与项目交付,,2024-01-01T00:00:00+00:00
-33330000-0000-0000-0000-000000000003,商务部,COM,functional,,王芳,2020-06-01,3,active,负责合同签署与回款跟进,,2024-01-01T00:00:00+00:00
+id,name,dept_code,dept_type,parent_id,leader_id,establish_date,sort_order,status,responsibilities,remark,created_at
+499ee4cb-33fa-4503-a5bb-0871ba20a77d,市场销售部,D001,functional,,2a501642-46e3-4cfc-b316-8bf332df5bc2,2015-01-01,1,active,负责市场开发、客户维护与商机管理,,2015-01-01
+56a49e76-b9b4-4712-9daa-a4f3820b9795,商务合同部,D002,functional,,5283b4cc-cfe8-4672-bcf4-98e7b2335e0b,2015-01-01,2,active,负责合同谈判、签署及合规管理,,2015-01-01
+fb1b3efc-4292-4891-9d92-edf7b3886902,技术研发部,D003,business_unit,,03bba6d2-ee3d-49f9-aba2-bfbe72500278,2015-01-01,3,active,负责产品研发与技术支持,,2015-01-01
+8fd609b6-08b6-4fd0-8bb3-4e5021f859ed,人力资源部,D004,functional,,265dc36a-0d15-4fcc-811d-1ecc81157abc,2015-01-01,4,active,负责招聘、培训与员工关系管理,,2015-01-01
+f2f29a63-65cc-44db-b18c-8243983b8511,财务管理部,D005,functional,,4ad37743-6e0e-497c-a16e-1b643e864f77,2015-01-01,5,active,负责财务核算、成本控制与资金管理,,2015-01-01
+e511d950-f962-4d27-973c-ad922450211f,项目管理部,D006,functional,,b766754e-983b-4b36-8462-e88db567ba4e,2016-03-01,6,active,负责项目全生命周期管理与质量把控,,2016-03-01

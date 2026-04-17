@@ -1,0 +1,4 @@
+id,project_id,contract_id,acceptance_type,acceptance_date,accepted_by_id,result,document_url,document_name,remark,created_at
+89019fa4-3f2f-4285-9aee-a7c1a3a5d09b,4c29a887-c44a-4ee3-a92a-9b8b956444b1,b23ef0d3-092f-4384-bb7e-73815e1feec3,final,2024-11-11,14a1a627-09b3-46ad-9132-c87c32bf306e,passed,,国网河北电力GIS系统建设项目验收报告.pdf,系统运行稳定，各项功能满足合同要求，客户确认验收通过,2024-11-11
+42f8fe95-81a5-423d-a5e9-e2f807f9b7ad,555327ad-ce8a-4098-a0c3-19e249ba3c8f,c088bdd9-aa90-492e-9d66-0ba227569b90,final,2024-06-06,c494234b-817e-4339-ab5d-7e1030156056,passed,,国网山东调度数据网升级改造项目验收报告.pdf,系统运行稳定，各项功能满足合同要求，客户确认验收通过,2024-06-06
+bafeac72-ec20-4405-9784-3137bdb11506,40c382ee-04e3-4a49-8212-101c9c06815f,48f06a9d-b843-4f12-91c2-ee3ee5c0c464,final,2024-10-29,a44ec5d9-d7d5-44f6-8450-e441715e9119,passed,,国网江苏AMI智能量测体系建设项目验收报告.pdf,系统运行稳定，各项功能满足合同要求，客户确认验收通过,2024-10-29

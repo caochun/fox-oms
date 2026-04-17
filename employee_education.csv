@@ -1,0 +1,16 @@
+id,employee_id,start_date,end_date,school,major,study_mode,degree,is_highest,remark,created_at
+9068494c-af10-42c6-ab7e-8c9428b744fb,2a501642-46e3-4cfc-b316-8bf332df5bc2,2012-09-01,2016-07-01,浙江大学,电子信息工程,full_time,bachelor,yes,,2016-03-01
+056cc1c1-3fa3-4233-9324-6d806d48437c,5283b4cc-cfe8-4672-bcf4-98e7b2335e0b,2013-09-01,2017-07-01,浙江大学,电气工程及其自动化,full_time,bachelor,yes,,2017-06-01
+f62d2a5f-21cb-4b74-8b3d-9246209665c5,03bba6d2-ee3d-49f9-aba2-bfbe72500278,2011-09-01,2015-07-01,浙江大学,电子信息工程,full_time,bachelor,yes,,2015-09-01
+5c07f8bb-8d5f-43ed-8391-cafb778f5bd4,265dc36a-0d15-4fcc-811d-1ecc81157abc,2014-09-01,2018-07-01,西安交通大学,信息管理与信息系统,full_time,bachelor,yes,,2018-01-01
+32f59bc3-c7ab-46c6-96e7-62067858033c,4ad37743-6e0e-497c-a16e-1b643e864f77,2012-09-01,2016-07-01,上海交通大学,电子信息工程,full_time,bachelor,yes,,2016-01-01
+3f019e70-93a2-4f1a-b3e1-f27e81ff3eb8,b766754e-983b-4b36-8462-e88db567ba4e,2012-09-01,2016-07-01,上海交通大学,电子信息工程,full_time,bachelor,yes,,2016-06-01
+a050f44a-dfce-4ce3-8b09-80cefc19ba42,5c0ca463-1acd-483e-852f-1fad4c5aaed1,2015-09-01,2019-07-01,华北电力大学,电子信息工程,full_time,bachelor,yes,,2019-03-01
+c882900b-e1b2-4303-a337-b1525735c340,d5c26bc4-ffc5-4077-bbb9-3c1bcf1473d6,2014-09-01,2018-07-01,北京邮电大学,软件工程,full_time,bachelor,yes,,2018-07-01
+a09dc9ed-8b9e-4826-b266-365bae5409fa,6ac6ae6a-c302-4c56-8c8a-f4ae3102af17,2017-09-01,2021-07-01,华北电力大学,计算机科学与技术,full_time,bachelor,yes,,2021-04-01
+898030a0-28c8-4809-a0b2-009dc4acfe83,227671fa-aed1-4bc0-9850-c735e42f21dd,2018-09-01,2022-07-01,浙江大学,软件工程,full_time,bachelor,yes,,2022-01-01
+d123c3c3-c6ab-44ec-bb87-6a3c485868ec,c8b88095-dc6b-48b6-a342-cdf18ad2cb0d,2016-09-01,2020-07-01,浙江大学,软件工程,full_time,bachelor,yes,,2020-05-01
+06a9345a-5cb8-4fc7-a3d3-a995117db7b5,a1de5c3e-dba4-467d-8995-cdd1f0a68786,2015-09-01,2019-07-01,华北电力大学,计算机科学与技术,full_time,bachelor,yes,,2019-09-01
+2d26b416-03e3-40a4-b727-823cd2bf6965,ea5a3760-bde6-4b03-8cb0-dc84c26bd3aa,2014-09-01,2018-07-01,西安交通大学,电子信息工程,full_time,bachelor,yes,,2018-11-01
+865c3c9e-fd87-4e25-a72f-eaff3e4494f9,889a70cf-56ba-491c-8079-20c2b0a972fa,2017-09-01,2021-07-01,北京邮电大学,信息管理与信息系统,full_time,bachelor,yes,,2021-08-01
+0c804e57-f327-4345-baae-939848809ca2,40078e66-9e2d-432e-9a7e-2e989d2a6ff8,2018-09-01,2022-07-01,华北电力大学,计算机科学与技术,full_time,bachelor,yes,,2022-03-01

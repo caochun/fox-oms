@@ -1,0 +1,16 @@
+id,employee_id,qual_type,qual_name,cert_no,issue_date,expiry_date,status,remark,created_at
+7f1f5a4a-f9b7-4e29-967b-84d2cb45b387,2a501642-46e3-4cfc-b316-8bf332df5bc2,certificate,PMP项目管理专业人士,PMP-CN-2023-12345,2023-06-19,2025-04-12,valid,,2016-03-01
+358ea8cc-fdb5-4cbb-9257-1af4e8d7177c,5283b4cc-cfe8-4672-bcf4-98e7b2335e0b,certificate,软件工程师,CERT2023001,2021-07-11,2027-06-27,valid,,2017-06-01
+7a862c2f-2c76-458c-94ab-0eba2c8e5529,03bba6d2-ee3d-49f9-aba2-bfbe72500278,training,AWS云服务培训,,2022-09-21,,valid,,2015-09-01
+9e6db95f-7655-456c-b8cc-2e61a396fbca,265dc36a-0d15-4fcc-811d-1ecc81157abc,training,华为云计算认证,,2022-06-24,,valid,,2018-01-01
+ef425a69-4c48-42e4-96d6-aff7360b670e,4ad37743-6e0e-497c-a16e-1b643e864f77,training,AWS云服务培训,,2021-07-13,,valid,,2016-01-01
+e30ed63f-1bd9-4938-9fd5-1c8c54131433,b766754e-983b-4b36-8462-e88db567ba4e,certificate,PMP项目管理专业人士,PMP-CN-2023-12345,2022-11-15,2025-08-22,valid,,2016-06-01
+70001730-c998-438f-90d6-cdb8ba99feeb,5c0ca463-1acd-483e-852f-1fad4c5aaed1,certificate,电力系统调度自动化工程师,PDAE2022001,2022-05-30,2025-08-16,valid,,2019-03-01
+8cd6abe9-7a83-4e37-9f16-ba2e4230a016,d5c26bc4-ffc5-4077-bbb9-3c1bcf1473d6,certificate,电力系统调度自动化工程师,PDAE2022001,2023-10-20,2028-10-21,valid,,2018-07-01
+adc2de4e-f573-47f0-99eb-d2c4d7ee3a35,6ac6ae6a-c302-4c56-8c8a-f4ae3102af17,training,华为云计算认证,,2022-09-23,,valid,,2021-04-01
+8bb49af2-9ca0-47c4-9e3a-e4ced9b70e07,227671fa-aed1-4bc0-9850-c735e42f21dd,training,华为云计算认证,,2023-09-28,,valid,,2022-01-01
+2515cad3-32aa-498d-9791-de4820a8c0cc,c8b88095-dc6b-48b6-a342-cdf18ad2cb0d,certificate,电力系统调度自动化工程师,PDAE2022001,2020-04-03,2026-03-28,valid,,2020-05-01
+1cdfc6d9-494e-444d-a843-b8d95fdfab91,a1de5c3e-dba4-467d-8995-cdd1f0a68786,training,AWS云服务培训,,2023-05-12,,valid,,2019-09-01
+83a2a3f9-10eb-43d8-80b7-3a5743043869,ea5a3760-bde6-4b03-8cb0-dc84c26bd3aa,certificate,软件工程师,CERT2023001,2020-01-16,2026-02-23,valid,,2018-11-01
+5d883805-782a-453e-a472-4acd50b4a3ab,889a70cf-56ba-491c-8079-20c2b0a972fa,certificate,电力系统调度自动化工程师,PDAE2022001,2021-03-08,2025-10-09,valid,,2021-08-01
+d0c3ee1d-fad5-4113-8575-06711d50f383,40078e66-9e2d-432e-9a7e-2e989d2a6ff8,certificate,电力系统调度自动化工程师,PDAE2022001,2021-08-15,2026-11-03,valid,,2022-03-01

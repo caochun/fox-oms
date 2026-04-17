@@ -1,0 +1,6 @@
+id,employee_id,change_type,change_date,old_department_id,new_department_id,old_position,new_position,old_rank,new_rank,reason,approved_by,remark,created_at
+e67c170a-72ca-439b-877c-d500c57ad72e,2a501642-46e3-4cfc-b316-8bf332df5bc2,regularize,2016-05-30,499ee4cb-33fa-4503-a5bb-0871ba20a77d,499ee4cb-33fa-4503-a5bb-0871ba20a77d,销售总监,销售总监,P5,P5,试用期满转正,陈浩,,2016-05-30
+5014f34c-a78c-4fe1-a40c-b62413917861,5283b4cc-cfe8-4672-bcf4-98e7b2335e0b,regularize,2017-08-30,56a49e76-b9b4-4712-9daa-a4f3820b9795,56a49e76-b9b4-4712-9daa-a4f3820b9795,商务经理,商务经理,P4,P4,试用期满转正,陈浩,,2017-08-30
+7ee44bca-7183-47c9-b1aa-1c570d7bc577,03bba6d2-ee3d-49f9-aba2-bfbe72500278,regularize,2015-11-30,fb1b3efc-4292-4891-9d92-edf7b3886902,fb1b3efc-4292-4891-9d92-edf7b3886902,技术总监,技术总监,P5,P5,试用期满转正,陈浩,,2015-11-30
+009dae47-feea-4f07-b8d2-f0792d0224d7,265dc36a-0d15-4fcc-811d-1ecc81157abc,regularize,2018-04-01,8fd609b6-08b6-4fd0-8bb3-4e5021f859ed,8fd609b6-08b6-4fd0-8bb3-4e5021f859ed,HR经理,HR经理,P4,P4,试用期满转正,陈浩,,2018-04-01
+927ba18b-ae80-48da-8fdc-4e9dca8c5021,4ad37743-6e0e-497c-a16e-1b643e864f77,regularize,2016-03-31,f2f29a63-65cc-44db-b18c-8243983b8511,f2f29a63-65cc-44db-b18c-8243983b8511,财务总监,财务总监,P5,P5,试用期满转正,陈浩,,2016-03-31

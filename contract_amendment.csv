@@ -1,0 +1,4 @@
+id,contract_id,change_type,change_no,change_date,description,old_amount,new_amount,old_end_date,new_end_date,approved_by,status,remark,created_at
+6e401bff-d8ea-44f4-a5d4-0fc1b4f91d9b,c37e61a7-3ae4-4d3c-85bb-fe43353a629a,extension,AMD-HT20230001-001,2024-06-21,因客户现场施工进度延迟，双方协商将合同履行期延长90天,1164.0,1164.0,2024-07-21,2024-10-19,总经理,approved,,2024-06-21
+4fe676ca-0ea5-4451-baee-f4c1039b686c,f987e2cd-e47a-4e7e-9951-66e94fe4e6ca,extension,AMD-HT20230002-001,2024-05-10,因客户现场施工进度延迟，双方协商将合同履行期延长90天,824.5,824.5,2024-06-09,2024-09-07,总经理,approved,,2024-05-10
+c3593131-be70-425f-9f66-f8e766b05f4d,b23ef0d3-092f-4384-bb7e-73815e1feec3,extension,AMD-HT20230003-001,2024-10-12,因客户现场施工进度延迟，双方协商将合同履行期延长90天,310.4,310.4,2024-11-11,2025-02-09,总经理,approved,,2024-10-12

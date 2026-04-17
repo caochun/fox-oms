@@ -1,0 +1,14 @@
+id,opportunity_id,title,description,assignee_id,due_date,priority,status,remark,created_at
+b923a8ac-48d5-4ed4-8c66-bc133c0c9fd7,164b738b-2e1a-420e-a777-a6cf2a4d3e89,提交资质文件清单给客户,按照销售计划推进商机,ea5a3760-bde6-4b03-8cb0-dc84c26bd3aa,2023-10-28,medium,pending,,2022-03-23
+73833da2-6390-4c8f-839f-3f34315fead2,164b738b-2e1a-420e-a777-a6cf2a4d3e89,跟进合同审批进度,按照销售计划推进商机,ea5a3760-bde6-4b03-8cb0-dc84c26bd3aa,2023-10-30,medium,done,,2023-09-10
+eab3bbef-8d5b-4b50-a163-8d39b817b9d5,164b738b-2e1a-420e-a777-a6cf2a4d3e89,组织内部投标策略会议,按照销售计划推进商机,2a501642-46e3-4cfc-b316-8bf332df5bc2,2024-12-07,medium,done,,2023-04-03
+9fd3da1d-c2d8-4971-a6f5-48307c196a1e,127913cf-4980-48b2-bee3-3533e680b7b3,跟进合同审批进度,按照销售计划推进商机,ea5a3760-bde6-4b03-8cb0-dc84c26bd3aa,2024-03-21,medium,overdue,,2022-02-28
+75ad4375-4d4b-405b-9580-086117f9ab48,b2c353e3-44d0-4083-8a84-490aa6084c8a,组织内部投标策略会议,按照销售计划推进商机,5c0ca463-1acd-483e-852f-1fad4c5aaed1,2024-06-09,low,overdue,,2022-06-13
+66e147bb-920e-43a7-92c2-04fd144c7201,2dd0a2cd-4b59-4a90-a3a9-710a03710b11,提交资质文件清单给客户,按照销售计划推进商机,ea5a3760-bde6-4b03-8cb0-dc84c26bd3aa,2024-11-25,medium,pending,,2022-05-10
+bedbb042-49af-4b4f-b409-912d2958476d,8f959afc-2ecb-4a23-9db6-e48c2f26908b,提交资质文件清单给客户,按照销售计划推进商机,ea5a3760-bde6-4b03-8cb0-dc84c26bd3aa,2024-01-11,medium,done,,2023-08-04
+e55e5000-a359-48a2-9f51-b3074ef7c2b3,97e9307e-fc4b-45be-9777-cf3371577e06,拜访客户采购部门负责人,按照销售计划推进商机,2a501642-46e3-4cfc-b316-8bf332df5bc2,2024-11-26,medium,done,,2023-01-16
+5bf8495b-6e30-48a4-85cb-fcaf9b8405f5,29bc5c0c-dd48-48c6-a2b7-6877b681dbd6,安排技术演示，准备演示环境,按照销售计划推进商机,ea5a3760-bde6-4b03-8cb0-dc84c26bd3aa,2023-05-21,low,done,,2023-02-12
+c88092c8-41ff-48f1-862e-888456777db5,29bc5c0c-dd48-48c6-a2b7-6877b681dbd6,跟进合同审批进度,按照销售计划推进商机,ea5a3760-bde6-4b03-8cb0-dc84c26bd3aa,2023-10-13,high,pending,,2022-01-27
+235250d2-eaf8-4399-b6a6-4e2d074bc390,10055c0e-ed16-434d-ac04-8b5c45489913,提交资质文件清单给客户,按照销售计划推进商机,5c0ca463-1acd-483e-852f-1fad4c5aaed1,2024-06-14,medium,overdue,,2022-05-01
+da8e0d08-2e0a-44dc-a12a-8bd8f02ec46c,10055c0e-ed16-434d-ac04-8b5c45489913,跟进合同审批进度,按照销售计划推进商机,5c0ca463-1acd-483e-852f-1fad4c5aaed1,2024-12-21,medium,pending,,2023-09-19
+879c36b3-1a9f-46f8-b7b0-35aab923ea2f,10055c0e-ed16-434d-ac04-8b5c45489913,跟进合同审批进度,按照销售计划推进商机,ea5a3760-bde6-4b03-8cb0-dc84c26bd3aa,2024-05-17,high,pending,,2022-05-19

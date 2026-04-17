@@ -1,0 +1,4 @@
+id,customer_id,partnership_tier,can_accompany_bid,cooperation_scope,contract_url,start_date,expiry_date,remark,created_at
+42cb44f4-5617-420e-8755-74da1376e152,e8b4a888-931a-4931-bbb7-9d47a0825811,silver,no,电力自动化系统联合投标,,2020-05-16,2026-12-03,,2021-04-11
+c3d2abad-c164-492e-a5fc-1ceff5780715,b5b9332e-108a-4147-8a6e-6f960a09b9a1,silver,no,电力自动化系统联合投标,,2019-05-30,2026-12-07,,2019-05-03
+67f88f23-6d67-427b-8942-e26157f20673,8c7e760b-f9de-49bb-8e8f-f4032aad17a9,gold,no,电力自动化系统联合投标,,2021-05-01,2026-05-11,,2021-08-09

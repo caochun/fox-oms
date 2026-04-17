@@ -1,0 +1,4 @@
+id,customer_id,qual_type,qual_name,cert_no,person_count,issue_date,expiry_date,status,remark,created_at
+7dc7bef6-6a3b-4026-8943-cad1156577ec,e8b4a888-931a-4931-bbb7-9d47a0825811,business,信息系统集成及服务资质（二级）,ISCCC36741,26,2021-09-13,2024-05-27,valid,,2020-11-16
+71a18b24-a5fb-4356-a7e6-18af1afabfb0,b5b9332e-108a-4147-8a6e-6f960a09b9a1,business,信息系统集成及服务资质（二级）,ISCCC51853,27,2021-02-12,2024-05-13,valid,,2021-01-14
+de5c1734-761f-4c6f-a5ea-59e4aa76f9b1,8c7e760b-f9de-49bb-8e8f-f4032aad17a9,business,信息系统集成及服务资质（二级）,ISCCC77499,40,2020-04-18,2024-11-22,valid,,2020-09-04

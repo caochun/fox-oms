@@ -1,0 +1,6 @@
+id,customer_id,field_name,old_value,new_value,info_source,recorded_by,changed_date,created_at
+44299b4d-8f92-49cd-aada-12306a4a8d28,95cea1e3-545c-4d71-aad6-5f12dc010321,tier,normal,key,销售拜访确认,张伟,2023-05-25,2022-01-24
+2ba67c35-aeba-481f-93f9-14044075b227,cbe8801a-93b5-44f9-8ce7-9b9998fe8a00,tier,normal,key,销售拜访确认,张伟,2022-04-03,2023-02-07
+e2de6aa3-f245-4b1c-be5a-3da88bb35097,23737dec-9bce-472c-b1c0-a3027d979391,tier,normal,key,销售拜访确认,张伟,2023-06-02,2023-04-14
+16712a77-2639-4020-86dd-e8a569d92d2f,016654bb-e840-4b81-a79d-3f019d698561,tier,normal,key,销售拜访确认,张伟,2022-09-04,2022-08-09
+72c72094-4d73-4cdc-9cc4-30906d91ef9f,ec23e3db-5f4f-4b44-977f-723d464e743c,tier,normal,key,销售拜访确认,张伟,2023-08-21,2022-12-28

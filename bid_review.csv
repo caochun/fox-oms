@@ -1,4 +1,7 @@
-id,bid_tender_id,round_no,target_type,creator,role,reviewer_id,status,result,overall_remark,created_at
-cccc0000-0000-0000-0000-000000000001,88880000-0000-0000-0000-000000000001,第一轮,main,陈明,first,44440000-0000-0000-0000-000000000001,submitted,pass,技术方案完整；符合招标要求；建议优化第三章实施方案描述,2024-04-18T00:00:00+00:00
-cccc0000-0000-0000-0000-000000000002,88880000-0000-0000-0000-000000000001,第二轮,accompany,陈明,second,44440000-0000-0000-0000-000000000001,submitted,pass,陪标文件合规；价格梯度合理,2024-04-20T00:00:00+00:00
-cccc0000-0000-0000-0000-000000000003,88880000-0000-0000-0000-000000000002,第一轮,main,陈明,first,44440000-0000-0000-0000-000000000001,submitted,revise,技术方案需补充云原生架构说明；案例章节需更新为近3年案例,2024-07-08T00:00:00+00:00
+id,bid_submission_id,round_no,target_type,accompany_company,created_by,role,reviewer_id,status,result,overall_remark,checklist_detail,created_at
+11317f56-8d04-47c9-971a-eccc16703003,cff8a059-370f-4da4-b25b-781162d296c5,第一轮,main,,张伟,first,d5c26bc4-ffc5-4077-bbb9-3c1bcf1473d6,submitted,pass,技术方案完整，报价合理，资质齐全，建议提交,营业执照√；资质证书√；业绩证明√；技术方案√；报价表√,2023-04-10
+97ecfc73-81fc-4096-a2e6-e3db7ae68c55,f9def7dd-2332-4f12-bf10-a0a9e2f7b63b,第一轮,main,,张伟,first,d5c26bc4-ffc5-4077-bbb9-3c1bcf1473d6,submitted,pass,技术方案完整，报价合理，资质齐全，建议提交,营业执照√；资质证书√；业绩证明√；技术方案√；报价表√,2023-04-13
+4e8e140d-78e2-4e78-af6f-aa434585eabd,e7d93e23-f857-4f6e-a4e8-4ef9be86d5f5,第一轮,main,,张伟,first,d5c26bc4-ffc5-4077-bbb9-3c1bcf1473d6,submitted,pass,技术方案完整，报价合理，资质齐全，建议提交,营业执照√；资质证书√；业绩证明√；技术方案√；报价表√,2023-01-30
+7987ccba-b870-445a-9bf3-0cd1234768d2,1cb2f7c1-5369-4222-8b57-f780e3d9d260,第一轮,main,,张伟,first,d5c26bc4-ffc5-4077-bbb9-3c1bcf1473d6,submitted,pass,技术方案完整，报价合理，资质齐全，建议提交,营业执照√；资质证书√；业绩证明√；技术方案√；报价表√,2023-03-19
+434876c1-6ac9-46f6-9f57-07019f7b8895,d54ca358-7280-480d-9cf8-d60c68990018,第一轮,main,,张伟,first,d5c26bc4-ffc5-4077-bbb9-3c1bcf1473d6,submitted,pass,技术方案完整，报价合理，资质齐全，建议提交,营业执照√；资质证书√；业绩证明√；技术方案√；报价表√,2023-04-13
+1f2a66dc-01e9-4da1-893f-69776a074ee1,f976d121-6f0d-4caf-8274-cf478e59563c,第一轮,main,,张伟,first,d5c26bc4-ffc5-4077-bbb9-3c1bcf1473d6,submitted,pass,技术方案完整，报价合理，资质齐全，建议提交,营业执照√；资质证书√；业绩证明√；技术方案√；报价表√,2023-02-15
