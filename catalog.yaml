@@ -12,7 +12,7 @@ tables:
     description: 产品/服务目录，供 contract_line_item 引用
   opportunity:
     name: 商机
-    description: 销售商机，生命周期从发现到赢单/丢单；关联客户、联系人、销售及商务负责人
+    description: 销售商机，生命周期覆盖 L6-L0；关联客户、联系人、销售及商务负责人，并补充推荐客户、转化来源项目和归属部门
   follow_up:
     name: 跟进记录
     description: 跟进记录，同时承载商机跟进与客户维度跟进；opportunity_id 为空表示纯客户跟进
@@ -21,7 +21,7 @@ tables:
     description: 商机阶段费用明细，含差旅、招待等销售成本
   sales_task:
     name: 销售任务
-    description: 商机关联的销售任务，含截止日期、负责人和优先级
+    description: 商机关联的销售任务，含截止日期、负责人、优先级；可由跟进记录的下次计划自动生成并支持提醒
   customer_department:
     name: 客户组织架构
     description: 客户公司组织架构，parent_id 支持多级部门树
@@ -37,6 +37,9 @@ tables:
   tender_notice:
     name: 招标信息
     description: 外部招标公告，记录客户/市场发布的招标信息，是商机识别的上游数据源
+  customer_settlement_rule:
+    name: 客户结算规则
+    description: 客户年度劳务/服务框架结算规则，按框架、人员类别或岗级维护基准价、折扣率和折后单价
   rfm_score:
     name: 客户价值分析
     description: 客户 RFM 价值分析快照；R=最近跟进距今天数，F=跟进频次，M=合同金额
@@ -72,19 +75,22 @@ tables:
     description: 合作伙伴持有的资质证书，关联 customer，支持有效期管理
   contract:
     name: 合同
-    description: 合同主档，含金额、税率、周期、付款方式；不存聚合字段，从明细表计算
+    description: 合同主档，补充含税/不含税金额、签约阶段、甲方商务/项目负责人及合同文本项目负责人；不存聚合字段，从明细表计算
   sub_contract:
     name: 子合同
-    description: 子合同，归属于主合同；可按子合同维度统计发票和付款计划
+    description: 子合同，归属于主合同；支持内部拆分并关联项目、商机和归属事业部，可按子合同维度统计发票和付款计划
   contract_payment_plan:
     name: 付款计划
     description: 合同付款计划期次定义；实际回款记录在 contract_payment，通过 payment_plan_id 关联
   contract_invoice:
     name: 开票记录
-    description: 合同开票记录，可通过 sub_contract_id 归属到子合同
+    description: 合同开票记录，兼容开票计划/开票申请/正式开票过程，记录税额、不含税金额、开票内容和电子票附件
   contract_amendment:
     name: 合同变更
     description: 合同变更记录，含金额和截止日期的新旧对比及审批状态
+  contract_settlement_line:
+    name: 合同结算明细
+    description: 劳务类合同参与结算的人员明细，记录岗位级别、结算单价、需求编号、打卡方式和材料提交时间
   department:
     name: 部门
     description: 内部组织部门，parent_id 支持多级部门树，leader_id 关联员工主档
@@ -120,13 +126,13 @@ tables:
     description: 知识产权发明人/著作权人，含申请阶段专用的联系电话和地址
   project:
     name: 项目
-    description: 项目主档，关联合同、客户和商机；不存成本聚合字段，从 project_cost 查询
+    description: 项目主档，关联合同、客户和商机；补充立项类别、项目类型、当前阶段与项目状态；不存成本聚合字段，从 project_cost 查询
   project_cost:
     name: 项目成本
     description: 项目成本明细，含人力、采购、外包等类型；可关联采购订单
   project_review:
     name: 项目评审
-    description: 项目评审记录，含评审意见和下一步行动项
+    description: 项目评审记录，含评审意见、下一步行动项、代码托管方式、项目管理方式和三级审批信息
   project_log:
     name: 项目进度日志
     description: 项目进度日志，按时间记录里程碑节点和完成情况
@@ -156,7 +162,7 @@ tables:
     description: 合同产品明细，关联产品目录；金额由 quantity×unit_price 计算，不存储
   project_member:
     name: 项目成员
-    description: 项目成员分配及历史项目经历；project_id 为空表示外部/历史项目
+    description: 项目成员分配及历史项目经历；project_id 为空表示外部/历史项目，聚焦实际交付人员并与合同结算人员区分
   customer_partnership:
     name: 客户合作伙伴
     description: 客户合作伙伴专属字段（合作层级、是否可陪标等），从 customer 拆出避免污染主档
@@ -211,6 +217,11 @@ relationships:
   to: customer
   toCol: id
   description: 招标方客户
+- from: customer_settlement_rule
+  fromCol: customer_id
+  to: customer
+  toCol: id
+  description: 结算规则所属客户
 - from: rfm_score
   fromCol: customer_id
   to: customer
@@ -261,6 +272,16 @@ relationships:
   to: employee
   toCol: id
   description: 子合同负责人
+- from: sub_contract
+  fromCol: project_id
+  to: project
+  toCol: id
+  description: 子合同关联项目
+- from: sub_contract
+  fromCol: opportunity_id
+  to: opportunity
+  toCol: id
+  description: 子合同关联商机
 - from: contract_payment_plan
   fromCol: sub_contract_id
   to: sub_contract
@@ -286,6 +307,31 @@ relationships:
   to: contract
   toCol: id
   description: 变更记录所属合同
+- from: contract_settlement_line
+  fromCol: contract_id
+  to: contract
+  toCol: id
+  description: 结算明细所属合同
+- from: contract_settlement_line
+  fromCol: sub_contract_id
+  to: sub_contract
+  toCol: id
+  description: 结算明细归属子合同
+- from: contract_settlement_line
+  fromCol: employee_id
+  to: employee
+  toCol: id
+  description: 结算参与员工
+- from: contract_settlement_line
+  fromCol: support_employee_id
+  to: employee
+  toCol: id
+  description: 配合打卡员工
+- from: contract_settlement_line
+  fromCol: settlement_rule_id
+  to: customer_settlement_rule
+  toCol: id
+  description: 结算明细适用规则
 - from: employee_education
   fromCol: employee_id
   to: employee
@@ -452,6 +498,11 @@ relationships:
   toCol: id
   description: 商机所属客户
 - from: opportunity
+  fromCol: referral_customer_id
+  to: customer
+  toCol: id
+  description: 商机推荐客户
+- from: opportunity
   fromCol: contact_id
   to: contact
   toCol: id
@@ -466,6 +517,36 @@ relationships:
   to: employee
   toCol: id
   description: 商务负责人
+- from: opportunity
+  fromCol: owner_department_id
+  to: department
+  toCol: id
+  description: 商机归属部门
+- from: opportunity
+  fromCol: source_project_id
+  to: project
+  toCol: id
+  description: 商机转化来源项目
+- from: sales_task
+  fromCol: source_follow_up_id
+  to: follow_up
+  toCol: id
+  description: 任务来源跟进记录
+- from: contract
+  fromCol: text_project_manager_id
+  to: employee
+  toCol: id
+  description: 合同文本项目负责人
+- from: contract
+  fromCol: party_a_business_contact_id
+  to: contact
+  toCol: id
+  description: 甲方合同商务联系人
+- from: contract
+  fromCol: party_a_project_manager_id
+  to: contact
+  toCol: id
+  description: 甲方实际项目负责人
 - from: bid_submission
   fromCol: bid_registration_id
   to: bid_registration
@@ -476,6 +557,21 @@ relationships:
   to: employee
   toCol: id
   description: 项目负责人
+- from: project_review
+  fromCol: pm_approver_id
+  to: employee
+  toCol: id
+  description: 项目经理审批人
+- from: project_review
+  fromCol: dept_approver_id
+  to: employee
+  toCol: id
+  description: 部门负责人审批人
+- from: project_review
+  fromCol: gm_approver_id
+  to: employee
+  toCol: id
+  description: 总经理审批人
 - from: contract_payment
   fromCol: contract_id
   to: contract
